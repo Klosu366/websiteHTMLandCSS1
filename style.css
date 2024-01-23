@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  width: 100%;
+}
+#obrazek{
+  width:125px;
+  padding-right: 15vw;
+}
+.background{
+  background-image: url(zdjecia/logo.png);
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+  width: 5vw;
+  text-decoration: none;
+  transition: font-size .5s;
+}
+
+a:hover{
+  cursor: pointer;
+  font-size: 25px;
+}
+
+a:visited{
+  color:red;
+}
+
+
+.button{
+  color: black;
+  border: none;
+  background-color: lightgray;
+  padding:20px;
+  border-radius:10%;
+  text-align: center;
+  font-size: 2rem;
+
+}
+button:hover{
+  background-color: black;
+  color: white;
+
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 498px;
+  background-color: #b3b9b5;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+
+.info{
+  text-align: justify;
+}
+
+.background{
+  background-image: url("zdjecia/tło.png");
+  object-fit: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 28vh;
+  gap:20vw;  
+}
+
+article{
+  background-color: rgba(211, 211, 211,0.8);
+  width: 30vw;
+  align-self: flex-start;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+
